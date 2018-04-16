@@ -1,2 +1,2 @@
 class Skill < ApplicationRecord
-end
+		validates_prescence_of :title, :percent_utlilized
